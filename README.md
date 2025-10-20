@@ -32,8 +32,8 @@ pro arquivo Json e quando coloco pra exibir ele também puxa os dados e mostra, 
 <h2>Cadastro Aluno(CRUD)</h2>
 
 <b>Responsavel: Henrique<br></b>
-- Tarefa Atual: Login Professor<br>
-Stiuação: Em andamento
+- Tarefa Atual: <br>
+Stiuação: 
 
 Ultima atualização: 
 
