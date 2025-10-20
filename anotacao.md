@@ -1,4 +1,4 @@
-Aqui iremos registrar anotações sobre tarefas que estamos fazendo, como um bloco de notas compartilhado.
+<h1>Aqui iremos registrar anotações sobre tarefas que estamos fazendo, como um bloco de notas compartilhado.</h1>
 
 Exemplo:
 
