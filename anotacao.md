@@ -13,6 +13,6 @@ Estou pensando se ajusto logo os dados do professor, ou vou pro login, alguma su
 - Data: 20/10/2025
 - Horario: 13:02
 - Tarefa Atual: Corrigindo dados professor.
-<p>Fiz atualização dos dados do professor corretos, arrumei a ordem também e dei uma "estilizada", coloquei pra limpar a tela, não ficar poluída cheio de informação.
+<p>Reinaldo - Fiz atualização dos dados do professor corretos, arrumei a ordem também e dei uma "estilizada", coloquei pra limpar a tela, não ficar poluída cheio de informação.
 Agora vou almoçar slk mó fome de dragão, quando voltar vou tentar fazer as comparações de telefone e CPF digitados corretamente. 
   Depois vejo alterações.</p>
