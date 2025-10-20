@@ -11,8 +11,8 @@ Usaremos aqui como registro para saber oque temos feito até o momento:
 
 <h2>Cadastro Professor(CRUD)</h2>
 
-<b>Responsavel: Reinaldo/n</b>
-Tarefa Atual: Login Professor
+<b>Responsavel: Reinaldo<br></b>
+Tarefa Atual: Login Professor<br>
 Stiuação: Em andamento
 
 Ultima atualização: 19/10
