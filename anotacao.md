@@ -1,6 +1,5 @@
 <h1>Aqui iremos registrar anotações sobre tarefas que estamos fazendo, como um bloco de notas compartilhado.</h1>
 
-Exemplo:
 
 - Data: 19/10/2025
 - Horario: 22:18
