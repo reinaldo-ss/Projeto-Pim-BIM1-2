@@ -1,0 +1,17 @@
+[
+    {
+        "name": "name",
+        "profissao": "name",
+        "materia": "name"
+    },
+    {
+        "name": "Reinaldo",
+        "profissao": "Tecnico",
+        "materia": "Informatica"
+    },
+    {
+        "name": "henrique",
+        "profissao": "aluno",
+        "materia": "python"
+    }
+]
