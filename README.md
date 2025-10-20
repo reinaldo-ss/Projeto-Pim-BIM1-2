@@ -45,3 +45,16 @@ Objetivos:
 - Consultar Nota
 
 Alcançados:
+
+<h2>Cadastro (CRUD)</h2>
+
+<b>Responsavel: Natan<br></b>
+- Tarefa Atual: <br>
+Stiuação: 
+
+Ultima atualização: 
+
+Objetivos:
+
+
+Alcançados:
