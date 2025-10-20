@@ -8,7 +8,7 @@ posso até ajudar a fazer o login aluno, porem se conseguir fazer por conta, mel
 e tambem contribuir pro projeto, podemos compartilhar informações sobre para nos ajudarmos.
   
 Estou pensando se ajusto logo os dados do professor, ou vou pro login, alguma sugestão?</p>
-
+<br>
 - Data: 20/10/2025
 - Horario: 13:02
 - Tarefa Atual: Corrigindo dados professor.
