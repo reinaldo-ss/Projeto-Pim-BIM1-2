@@ -25,7 +25,7 @@ Objetivos:
 
 Alcançados:
 
-- Cadastro professor
+- Cadastro professor<br>
 Obs: Falta por os dados corretos do professor, mas ja consegui fazer o cadastro entrar
 pro arquivo Json e quando coloco pra exibir ele também puxa os dados e mostra, vou seguir pra tentar fazer o Login professor
 
