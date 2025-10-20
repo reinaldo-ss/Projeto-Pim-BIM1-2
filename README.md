@@ -5,41 +5,42 @@ Usaremos aqui como registro para saber oque temos feito até o momento:
 <h2>Pendentes:</h2>
 
 - CRUD Turma
-- Login Administrador
 - Login Aluno
 - ChatBot
+- Login Administrador com CRUD para (Turmas, Professor e Alunos)
 
 <h2>Cadastro Professor(CRUD)</h2>
 
 <b>Responsavel: Reinaldo<br></b>
-Tarefa Atual: Login Professor<br>
+- Tarefa Atual: Login Professor<br>
 Stiuação: Em andamento
 
 Ultima atualização: 19/10
 
 Objetivos:
 
-CRUD Material
-CRUD Atividade
+- CRUD Material
+- CRUD Atividade
+- CRU Nota
 
 Alcançados:
 
-Cadastro professor
+- Cadastro professor
 Obs: Falta por os dados corretos do professor, mas ja consegui fazer o cadastro entrar
 pro arquivo Json e quando coloco pra exibir ele também puxa os dados e mostra, vou seguir pra tentar fazer o Login professor
 
 <h2>Cadastro Aluno(CRUD)</h2>
 
-Stiuação: Em andamento
-Responsavel: Reinaldo
+Sitiuação: A fazer
+Responsavel: Henrique
 
-Ultima atualização: 19/10
+Ultima atualização: 
 
 Objetivos:
 
-CRUD Material
-CRUD Atividade
-CRUD Turma
+- Responder Atividade
+- Ler Atividade
+- Consultar Material
+- Consultar Nota
 
 Alcançados:
-
