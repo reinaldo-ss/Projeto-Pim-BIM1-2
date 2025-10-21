@@ -15,7 +15,7 @@ Usaremos aqui como registro para saber oque temos feito até o momento:
 - Tarefa Atual: Login Professor<br>
 Stiuação: Em andamento
 
-Ultima atualização: 19/10
+Ultima atualização: 21/10
 
 Objetivos:
 
@@ -26,8 +26,9 @@ Objetivos:
 Alcançados:
 
 - Cadastro professor<br>
-Obs: Falta por os dados corretos do professor, mas ja consegui fazer o cadastro entrar
-pro arquivo Json e quando coloco pra exibir ele também puxa os dados e mostra, vou seguir pra tentar fazer o Login professor
+Obs: Estou fazendo algumas implementações necessarias ao professor, como conferir CPF, conferir telefone, email, os principais se turma e curso existem no sistema, serão as proximas atualizações que serão feitas a ele. Estou ajustando por enquanto esses dados pois quando for fazer o alterar sera mais simples pra puxar os dados, e as funções necessarias para conferir os dados corretos.
+
+Devo deixar o CPF sempre como "apenas se existir a partir do calculo" ou qualquer cpf que não contenha letras e caracters especiais? Estou disponivel para duvidas quaisquer.
 
 <h2>Cadastro Aluno(CRUD)</h2>
 
