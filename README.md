@@ -32,10 +32,10 @@ pro arquivo Json e quando coloco pra exibir ele também puxa os dados e mostra, 
 <h2>Cadastro Aluno(CRUD)</h2>
 
 <b>Responsavel: Henrique<br></b>
-- Tarefa Atual: <br>
-Stiuação: 
+- Tarefa Atual: Login Alunos<br>
+Stiuação: Em andamento
 
-Ultima atualização: 
+Ultima atualização: 21/10
 
 Objetivos:
 
@@ -45,6 +45,11 @@ Objetivos:
 - Consultar Nota
 
 Alcançados:
+
+- Cadastro Alunos<br>
+Obs: Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
+pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. EM breve
+farei mais atualizações para finalizar essa etapa.
 
 <h2>Cadastro (CRUD)</h2>
 
