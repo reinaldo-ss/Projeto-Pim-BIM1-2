@@ -1,0 +1,58 @@
+{
+    "professores": [
+        {
+            "name": "henrique",
+            "cpf": "12345678910",
+            "numTelefone": "11911548759",
+            "curso": "Ads",
+            "turma": "Turma 1",
+            "materia": "python",
+            "email": "henrique@gmail.com"
+        },
+        {
+            "name": "naldo",
+            "cpf": "12345678911",
+            "numTelefone": "1193256841",
+            "curso": "ads",
+            "turma": "1",
+            "materia": "python",
+            "email": "reinaldo@outlook.com"
+        },
+        {
+            "name": "rei",
+            "cpf": "23142141241",
+            "numTelefone": "3213124211231",
+            "curso": "ads",
+            "turma": "2",
+            "materia": "c",
+            "email": "naldo@gmail.com"
+        },
+        {
+            "name": "reidonaldo",
+            "cpf": "12345678912",
+            "numTelefone": "12345678911",
+            "curso": "ciencia",
+            "turma": "1",
+            "materia": "laboratorio",
+            "email": "reidonaldo@gmail.com"
+        },
+        {
+            "name": "nal",
+            "cpf": "1254354321",
+            "numTelefone": "11243123253342",
+            "curso": "mat",
+            "turma": "2",
+            "materia": "fdvdbdbd",
+            "email": "reinaldjgsdn@"
+        },
+        {
+            "name": "reibaldo",
+            "cpf": "82462054553",
+            "numTelefone": 11123456789,
+            "curso": "maromba",
+            "turma": "2",
+            "materia": "marombeiro",
+            "email": "reibaldo@martelo"
+        }
+    ]
+}
