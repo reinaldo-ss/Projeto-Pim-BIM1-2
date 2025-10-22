@@ -30,13 +30,15 @@ Obs: Estou fazendo algumas implementações necessarias ao professor, como confe
 
 Devo deixar o CPF sempre como "apenas se existir a partir do calculo" ou qualquer cpf que não contenha letras e caracters especiais? Estou disponivel para duvidas quaisquer.
 
+(Henrique Respondendo): Por mim acho que não precisaria ter essa métrica não. Vai acbar nos dando mais trabalho, então acho que apenas ter o número exato de caracteres de um cpf de verdade já é o suficiente, pra simplificar nossa vida.
+
 <h2>Cadastro Aluno(CRUD)</h2>
 
 <b>Responsavel: Henrique<br></b>
 - Tarefa Atual: Login Alunos<br>
-Stiuação: Em andamento
+Stiuação: Concluída (mas com possíveis mudanças)
 
-Ultima atualização: 21/10
+Ultima atualização: 22/10
 
 Objetivos:
 
@@ -48,11 +50,12 @@ Objetivos:
 Alcançados:
 
 - Cadastro Alunos<br>
-Obs: Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
-pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. EM breve
-farei mais atualizações para finalizar essa etapa.
+Obs:
+(21/10) Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
+pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. Em breve farei mais atualizações para finalizar essa etapa.
+(22/10) Apliquei os atributos que faltavam aos usuários, e adicionei mais duas funcionalidades: deletar_usuário() e modificar_usuario(), com isso o CRUD de alunos está completo. Talvez ainda possa fazer algumas modificações, como fazer com que todas as respostas inseridas nos "inputs" fiquem minúsculas (sugestão do Reinaldo), ou alguma observação que vocês vierem a fazer (To pensando em mexer um pouco no design que aparece no terminal, mas daí é bom conversarmos todos para chegarmos a um padrão).
 
-<h2>Cadastro (CRUD)</h2>
+<h2>Cadastro Cursos(CRUD)</h2>
 
 <b>Responsavel: Natan<br></b>
 - Tarefa Atual: <br>
