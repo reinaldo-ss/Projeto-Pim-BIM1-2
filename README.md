@@ -36,9 +36,9 @@ Devo deixar o CPF sempre como "apenas se existir a partir do calculo" ou qualque
 
 <b>Responsavel: Henrique<br></b>
 - Tarefa Atual: Login Alunos<br>
-Stiuação: Concluída (mas com possíveis mudanças)
+Stiuação: Em Andamento (quase concluída)
 
-Ultima atualização: 22/10
+Ultima atualização: 24/10
 
 Objetivos:
 
@@ -54,6 +54,7 @@ Obs:
 (21/10) Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
 pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. Em breve farei mais atualizações para finalizar essa etapa.
 (22/10) Apliquei os atributos que faltavam aos usuários, e adicionei mais duas funcionalidades: deletar_usuário() e modificar_usuario(), com isso o CRUD de alunos está completo. Talvez ainda possa fazer algumas modificações, como fazer com que todas as respostas inseridas nos "inputs" fiquem minúsculas (sugestão do Reinaldo), ou alguma observação que vocês vierem a fazer (To pensando em mexer um pouco no design que aparece no terminal, mas daí é bom conversarmos todos para chegarmos a um padrão).
+(24/10) Criei as funções de verificação para cada tipo de dado de cadastro dos alunos, menos RA, endereço e curso. Endereço porque basicamente não tem limitações de caracteres, RA porque eu ainda preciso criar uma função que gera automaticamente um RA e o atribui aos alunos (tipo um id), e cursos porque ainda não temos os cursos pré-definidos na plataforma, então não dá pra filtrar nada, temos que ver isso. A interface vou ver de postar ainda hoje, apenas o protótipo com as rotinas do usuário. Obs: Meu código já ultrapassou as 200 linhas e eu nem acabei kkkkk, espero q n dê problema na hora de imprimir isso.
 
 <h2>Cadastro Cursos(CRUD)</h2>
 
