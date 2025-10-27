@@ -13,10 +13,10 @@ def chatbot():
 
         elif escolha == "1":
             while True:
-                print("\nSelecione o tipo de dúvida abaixo:")
-                print("1 - Problemas com cadastro")
-                print("2 - Dúvidas sobre pagamentos")
-                print("3 - Erros no aplicativo")
+                print("\n Selecione o tipo de dúvida abaixo:")
+                print("1 - Problemas com login")
+                print("2 - Dúvidas sobre material")
+                print("3 - erro ao enviar atividades")
                 print("4 - Nenhuma das alternativas acima")
                 print("0 - Voltar ao menu inicial")
 
@@ -27,22 +27,22 @@ def chatbot():
 
                 elif opcao == "1":
                     print("\n Resposta:")
-                    print("Para corrigir problemas de cadastro, verifique se todos os campos foram preenchidos corretamente.")
-                    print("Caso o erro persista, limpe o cache do navegador e tente novamente.")
+                    print("Para corrigir problemas com login primeiro verifique se não digitou nenhum caractere errado.")
+                    print("Caso o erro persista verifique se você está cadastrado no sistema.")
 
                 elif opcao == "2":
                     print("\n Resposta:")
-                    print("Os pagamentos podem demorar até 24 horas para serem confirmados.")
-                    print("Se o valor já foi debitado e não consta no sistema, entre em contato com o suporte.")
+                    print("Para acessar o material de aulas é necessário que você tenha o código da sua turma.")
+                    print("Se o código não funcionar verifique se você digitou ele corretamente.")
 
                 elif opcao == "3":
                     print("\n Resposta:")
-                    print("Erros no aplicativo podem ocorrer por causa de versões desatualizadas.")
-                    print("Reinstale o app e tente novamente.")
+                    print("Caso esteja tendo problemas com o envio de atividades, verifique se a atividade ainda está válida")
+                    print("Caso não esteja conseguindo acessar sua atividade, verifique com seu professor se o link da tarefa foi postado corretamente")
 
                 elif opcao == "4":
-                    print("\n Contato com o suporte humano:")
-                    print("Envie um e-mail para: suporte@empresa.com")
+                    print("\n Então entre em contato com um administrador pelo seguinte e-mail ou telefone:")
+                    print("email: (email exemplo) telefone: (telefone exemplo)")
                     continue  # volta ao menu de dúvidas direto
 
                 else:
@@ -50,7 +50,7 @@ def chatbot():
                     continue  # repete o menu de dúvidas
 
                 # Pergunta se a dúvida foi resolvida
-                resolvido = input("\nSua dúvida foi resolvida? (sim/não): ").strip().lower()
+                resolvido = input("\n Sua dúvida foi resolvida? (sim/não): ").strip().lower()
 
                 if resolvido == "sim":
                     print("\n Que ótimo! Ficamos felizes em ajudar.")
