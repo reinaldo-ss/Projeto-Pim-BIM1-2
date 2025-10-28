@@ -16,8 +16,10 @@ def chatbot():
                 print("\n Selecione o tipo de dúvida abaixo:")
                 print("1 - Problemas com login")
                 print("2 - Dúvidas sobre material")
-                print("3 - erro ao enviar atividades")
-                print("4 - Nenhuma das alternativas acima")
+                print("3 - Erro ao enviar atividades")
+                print("4 - Problemas com cadastro")
+                print("5 - Problemas para deletar usuários")
+                print("6 - Nenhuma das alternativas acima")
                 print("0 - Voltar ao menu inicial")
 
                 opcao = input("Digite o número da opção desejada: ")
@@ -41,8 +43,19 @@ def chatbot():
                     print("Caso não esteja conseguindo acessar sua atividade, verifique com seu professor se o link da tarefa foi postado corretamente")
 
                 elif opcao == "4":
+                    print("\n Resposta:")
+                    print(" caso esteja tendo problemas para cadastrar um usuário, verifique se todos os campos obrigatórios foram preenchidos.")
+                    print("caso o problema persista, verifique se algum campo possui um caractere inválido.")
+
+                elif opcao == "5":
+                    print("\n Resposta:")
+                    print(" caso esteja com problemas para deletar um usuário, verifique se o mesmo esta cadastrado no sistema.")
+                    print(" caso o problema persista, verifique se os dados do cadastro foram inseridos corretamente para deleta-lo")
+                        
+
+                elif opcao == "6":
                     print("\n Então entre em contato com um administrador pelo seguinte e-mail ou telefone:")
-                    print("email: (email exemplo) telefone: (telefone exemplo)")
+                    print("Email: MatrizLab@gmail.com telefone: 11 4002-8922")
                     continue  # volta ao menu de dúvidas direto
 
                 else:
@@ -56,7 +69,7 @@ def chatbot():
                     print("\n Que ótimo! Ficamos felizes em ajudar.")
                 elif resolvido == "não":
                     print("\n Nesse caso, entre em contato com um administrador pelo seguinte e-mail ou telefone:")
-                    print("email: (email exemplo) telefone: (telefone exemplo)")
+                    print("Email: MatrizLab@gmail.com telefone: 11 4002-8922")
                 else:
                     print("\n Opção inválida. Retornando ao menu de dúvidas.")
 
