@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Reibaldo",
+        "cpf": "12345678910",
+        "email": "reinaldo@outlook.com",
+        "senha": "12345678",
+        "numTelefone": "12345678901",
+        "rP": "7R0E5KE"
+    },
+    {
+        "name": "Reibaldo",
+        "cpf": "42312345635",
+        "email": "naldinho123@gmail.com",
+        "senha": "314312R*",
+        "numTelefone": "11063707853",
+        "rP": "0RJ89NM"
+    },
+    {
+        "name": "R",
+        "cpf": "1",
+        "email": "n",
+        "senha": "123",
+        "numTelefone": "1",
+        "rP": "123"
+    }
+]

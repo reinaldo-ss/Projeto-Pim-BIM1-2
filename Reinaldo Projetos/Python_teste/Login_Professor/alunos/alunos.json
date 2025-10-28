@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ronaldo",
+        "idade": "18",
+        "email": "email",
+        "telefone": "telefone",
+        "cpf": "cpf",
+        "ra": "ra",
+        "codTurma": "FHJ533",
+        "nota": 2.0
+    }
+]

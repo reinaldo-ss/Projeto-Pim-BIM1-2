@@ -1,0 +1,23 @@
+[
+    {
+        "curso": "Analise e Desenvolvimento de Sistemas",
+        "codTurma": "FHJ533"
+    },
+    {
+        "curso": "Ciencia da computação",
+        "codTurma": "FJD986"
+
+    },
+    {
+        "curso": "Redes e Computadores",
+        "codTurma": "SKA879"
+    },
+    {
+        "curso": "Segurança da informação",
+        "codTurma": "DHQ768"
+    },
+    {
+        "curso": "Engenharia da computação",
+        "codTurma": "IUWR034"
+    }
+]
