@@ -1,0 +1,24 @@
+[
+    {
+        "nome": "Henrique",
+        "sobrenome": "Silva",
+        "email": "henriquesilva@gmail.com",
+        "senha": "henrique#",
+        "telefone": "11991417987",
+        "cpf": "32456473892",
+        "RA": "Z5I1PZE",
+        "codTurma": "FHJ533",
+        "nota": 10.0
+    },
+    {
+        "nome": "Junior",
+        "sobrenome": "Costa",
+        "email": "juniorcosta@gmail.com",
+        "senha": "juniorcosta#",
+        "telefone": "11902918293",
+        "cpf": "91823762817",
+        "RA": "8NED7SE",
+        "codTurma": "DHQ768",
+        "nota": 0.0
+    }
+]
