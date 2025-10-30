@@ -48,7 +48,7 @@ Objetivos:
 Alcançados:
 
 - Cadastro Alunos<br>
-Obs:
+Obs:<br>
 (21/10) Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
 pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. Em breve farei mais atualizações para finalizar essa etapa.<br>
 (22/10) Apliquei os atributos que faltavam aos usuários, e adicionei mais duas funcionalidades: deletar_usuário() e modificar_usuario(), com isso o CRUD de alunos está completo. Talvez ainda possa fazer algumas modificações, como fazer com que todas as respostas inseridas nos "inputs" fiquem minúsculas (sugestão do Reinaldo), ou alguma observação que vocês vierem a fazer (To pensando em mexer um pouco no design que aparece no terminal, mas daí é bom conversarmos todos para chegarmos a um padrão).<br>
