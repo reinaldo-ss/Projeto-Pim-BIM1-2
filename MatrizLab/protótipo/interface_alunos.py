@@ -1,4 +1,5 @@
 import utils
+import chatbot
 
 def login_aluno(alunos):
     aluno = None
