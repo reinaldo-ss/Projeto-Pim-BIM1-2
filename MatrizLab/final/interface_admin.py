@@ -1,8 +1,41 @@
 import utils
 import random
 import string
-import re
+import subprocess
+import os
 
+def gerar_relatorio_alunos():
+    executavel_c = './gerador_relatorio.exe'
+
+    if not os.path.exists(executavel_c):
+        print(f"ERRO: O arquivo executável '{executavel_c}' não foi encontrado!")
+        print("Por favor, compile o código C primeiro com o comando:")
+        print("gcc gerador_relatorio.c cJSON.c -o gerador_relatorio.exe")
+        return False
+    
+    utils.limpaTela()
+    print("Iniciando a geração do relatório via C...")
+    
+    try:
+        resultado = subprocess.run(
+            [executavel_c],    # O comando e seus argumentos em uma lista
+            capture_output=True, # Recebe o que o programa em C imprimiu no terminal
+            text=True,           # Converte a saída para texto (string)
+            check=True           # Lança um erro se o programa em C falhar
+        )
+        
+        print("Relatório de alunos gerado com sucesso!")
+        utils.voltar_menu()
+        return True
+    
+    except subprocess.CalledProcessError as e:
+        # ERRO que acontece se o programa C terminar com um código de erro.
+        print("ERRO: O programa em C falhou durante a execução.")
+        print(f"Código de retorno: {e.returncode}")
+        print("Saída de erro do programa C:")
+        print(e.stderr) # Imprime a saída de erro (ex: "Erro ao abrir o arquivo JSON")
+        return False
+    
 # Função que valida o CPF
 def validar_cpf(entrada):
     numero_digitos = 11
@@ -454,7 +487,8 @@ def menu_gerenciar_alunos():
         print("2. Listar Alunos")
         print("3. Editar Alunos")
         print("4. Deletar Alunos")
-        print("5. Voltar ao Menu Principal")
+        print("5. Gerar Relatório Alunos")
+        print("6. Voltar ao Menu Principal")
         
         opcao = input("\n Escolha uma opção: ")
 
@@ -467,6 +501,8 @@ def menu_gerenciar_alunos():
         elif opcao == "4":
             apagar_alunos()
         elif opcao == "5":
+            gerar_relatorio_alunos()
+        elif opcao == "6":
             break
         else:
             utils.limpaTela()
