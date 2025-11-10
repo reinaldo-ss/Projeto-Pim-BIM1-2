@@ -1,5 +1,5 @@
 import interface_admin
-import interface_professor
+import interface_professores
 import interface_alunos
 import utils
 
@@ -24,7 +24,7 @@ def menu_principal():
             interface_admin.iniciar_menu()
         elif opcao == "2":
             # chama a função principal do módulo de professor
-            interface_professor.iniciar_menu()
+            interface_professores.iniciar_menu()
         elif opcao == "3":
             # chama a função principal do módulo de aluno
             interface_alunos.iniciar_menu()
