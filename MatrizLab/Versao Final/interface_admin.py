@@ -538,7 +538,7 @@ def iniciar_menu():
     while True:
         utils.limpaTela()
         print("===== Painel do Administrador =====")
-        print("1. Gerenciar ALunos")
+        print("1. Gerenciar Alunos")
         print("2. Gerenciar Professores")
         print("3. Voltar ao Menu Inicial")
 

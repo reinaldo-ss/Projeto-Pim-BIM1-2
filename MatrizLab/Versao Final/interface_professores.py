@@ -898,7 +898,7 @@ def iniciar_menu():
             print("5. Fazer Logout")
             print("6. Sair do Sistema\n")
 
-            print("Tem alguma dúvida? Pressione '7' para consultar o nosso CHATBOT!")
+            print("Tem alguma dúvida? Pressione '0' para consultar o nosso CHATBOT!")
             print("======================================================\n")
 
             escolha = input("Escolha uma opção: ")
@@ -918,7 +918,7 @@ def iniciar_menu():
             elif escolha == '6':
                 input("\nSaindo do sistema. Até mais!\nPressione enter para sair...")
                 break
-            elif escolha == '7':
+            elif escolha == '0':
                 chatbot.chatbot()
             else:
                 input("\nOpção inválida. Pressione enter para tentar novamente...")

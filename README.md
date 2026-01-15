@@ -1,64 +1,44 @@
-# Projeto-Pim-BIM1-2
+# 🏫 Matriz Lab
 
-Usaremos aqui como registro para saber oque temos feito até o momento:
+> Projeto Integrado Multidisciplinar (PIM) - 1º Semestre
 
-<h2>Pendentes:</h2>
+## 📄 Sobre o Projeto
 
-- Login Aluno
-- ChatBot
-- Login Administrador com CRUD para (Turmas, Professor e Alunos)
+O **Matriz Lab** é um sistema de gerenciamento escolar desenvolvido com o objetivo de otimizar as tarefas de professores e da secretaria, além de facilitar a interação com os alunos.
 
-<h2>Cadastro Professor(CRUD)</h2>
+O foco principal do projeto é a **sustentabilidade**: visando reduzir o alto consumo de papel e energia (impressões) nas escolas, digitalizando processos que antes eram manuais.
 
-<b>Responsavel: Reinaldo<br></b>
-- Tarefa Atual: Diagramas caso de uso e sequencia<br>
-Stiuação: Em andamento
+**Nota:** Este software foi desenvolvido sob prazos desafiadores como parte da avaliação do 1º bimestre, operando totalmente via **Console (CLI)** e utilizando manipulação de arquivos para persistência de dados.
 
-Ultima atualização: 28/10
+## ⚙️ Funcionalidades
 
-Objetivos:
+O sistema é dividido em perfis de acesso, cada um com suas responsabilidades:
 
-Todos Feitos!
-Diagramas...
+### 🔐 Administrador (Secretaria)
+- Acesso restrito.
+- **CRUD Completo:** Criação, Leitura, Atualização e Exclusão de usuários.
+- Gerenciamento de turmas (pré-definidas na estrutura do código).
 
-Alcançados:
+### 🎓 Aluno
+- Visualização de dados cadastrais.
+- Acesso a atividades postadas (integração via links externos para Google Forms ou Teams).
+- Consulta de notas.
 
-- Cadastro professor
-- CRUD Material
-- CRUD Atividade
-- CRU Nota<br>
+### 👨‍🏫 Professor
+- **Gestão de Notas:** Lançamento e alteração de notas.
+- **Gestão de Atividades:** Cadastro de atividades e links para resolução.
+- Controle total (CRUD) sobre as funcionalidades acadêmicas.
 
-Finalizado: Finzalizei e estilizei todos as paginas do cadastrar professor e login professor! Irei arrumar os diagramas agora para finalizar minha parte.
+### 🤖 ChatBot (Auxiliar)
+- Módulo independente do sistema principal.
+- Tira-dúvidas de respostas rápidas (FAQ) para auxiliar professores e alunos.
+- Redirecionamento para e-mail ou telefone de suporte em casos de dúvidas complexas.
 
-<h2>Cadastro Aluno(CRUD)</h2>
+## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
 
-<b>Responsavel: Henrique<br></b>
-- Tarefa Atual: Login Alunos<br>
-Stiuação: Em Andamento (quase concluída)
+## 🛠️ Tecnologias Utilizadas
 
-Ultima atualização: 27/10
-
-Objetivos:
-
-- Responder Atividade
-- Ler Atividade
-- Consultar Material
-- Consultar Nota
-
-Alcançados:
-
-- Responder Atividade
-- Ler Atividade
-- Consultar Material
-- Consultar Nota
-
-- Cadastro Alunos<br>
-Obs:<br>
-(21/10) Ainda preciso adicionar alguns atributos nos dicionários, mas em geral tem ocorrido bem. Separei os métodos "dump" e "load" em funções
-pra ficar organizado, e usei o "import os" pra mexer com o funcionamento do sistema, qualquer dúvida sobre isso podem me perguntar. Em breve farei mais atualizações para finalizar essa etapa.<br>
-(22/10) Apliquei os atributos que faltavam aos usuários, e adicionei mais duas funcionalidades: deletar_usuário() e modificar_usuario(), com isso o CRUD de alunos está completo. Talvez ainda possa fazer algumas modificações, como fazer com que todas as respostas inseridas nos "inputs" fiquem minúsculas (sugestão do Reinaldo), ou alguma observação que vocês vierem a fazer (To pensando em mexer um pouco no design que aparece no terminal, mas daí é bom conversarmos todos para chegarmos a um padrão).<br>
-(24/10) Criei as funções de verificação para cada tipo de dado de cadastro dos alunos, menos RA, endereço e curso. Endereço porque basicamente não tem limitações de caracteres, RA porque eu ainda preciso criar uma função que gera automaticamente um RA e o atribui aos alunos (tipo um id), e cursos porque ainda não temos os cursos pré-definidos na plataforma, então não dá pra filtrar nada, temos que ver isso. A interface vou ver de postar ainda hoje, apenas o protótipo com as rotinas do usuário. Obs: Meu código já ultrapassou as 200 linhas e eu nem acabei kkkkk, espero q n dê problema na hora de imprimir isso.<br>
-(27/10) Implementei um recurso dentro da função "cadastrar_novo_aluno", que gera um RA de 7 digitos, com 5 letras maiusculas e 2 numeros de 0 a 9. Também retirei o atributo de "endereço" dos alunos e modifiquei alguns detalhes na estrutura do projeto, para que ele funcionasse corretamente. Criei o primeiro protótipo da interface do site pros alunos, que contém todos os métodos citados no diagrama de classes, e que já possui ligação direta com o a lista.JSON que contém os cadastros dos alunos salvos, só precisaria ter uma ligação com o código da parte dos professores, para que as opções "Consultar Notas", "Consultar Atividades" e "Consultar Material" funcionem, isso daí vemos depois. Diria que já estou nas etapas finais, esse projeto ta ficando top demais slk.<br>
-(28/10) Hoje complementei o cadastro de alunos, colocando opções de cancelar alguma ação não intencional por parte do usuário, criei uma função que impede dois dados iguais existirem no banco de dados, aplicada para os atributos "email", "telefone" e "CPF", criei o atributo "sobrenome" pros alunos, e comentei boa parte do código que acho que já seja o suficiente.<br>
-(30/10) Fiz um protótipo da integração das interfaces, já imaginando como ficará o sistema final. Eu fiz algumas boas alterações na matriz dos códigos, para que eles se complementassem, mudei alguns nomes de atributos dos dicionários, e criei um arquivo "utils.py" para criar funções genéricas e não precisar ficar criando elas em cada arquivo de interface, deixando mais organizado. Basicamente o que falta mudar agora é a padronização do estilo das interfaces, já que tem tanto estilo meu, quando do Reinaldo. Acho que amanhã consigo consertar isso. AInda não fiz um teste 100%, mas acredito que esteja funcionando bem. Se quiserem, deem uma olhada no projeto todo, tentem rodar aí na casa de vocês, e me digam se encontraram algum erro beleza?<br>
-(31/10) Beleza, acho que finalmente finalizei o projeto. As interfaces estão todas integradas no main.py, os estilos das interfaces foram padronizados, dei uma boa mexida no chatbot pra ficar mais dinâmico. Também adicionei o relatório sobre os alunos cadastrados, com código feito em linguagem C. Vocês só conseguirão rodar na casa de vocês se baixarem algumas coisas, então se precisarem de ajuda, só me chamar beleza? Acho que é isso gente. Se acharem que temos que fazer alguma modificação, por favor me avisem o mais breve possível.
+- **Linguagem:** [Insira aqui: C / Python / C#]
+- **Interface:** CLI (Linha de Comando / Terminal)
+- **Banco de Dados:** Arquivos `.json` (Simulação de banco de dados relacional via arquivos locais).
+- **IDE/Ferramentas:** [VS Code / DevC++ / CodeBlocks]
