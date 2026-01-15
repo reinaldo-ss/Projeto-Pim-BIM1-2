@@ -2,7 +2,7 @@
 
 > Projeto Integrado Multidisciplinar (PIM) - 1º Semestre
 
-## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
+> 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
 
 ## 📄 Sobre o Projeto
 
