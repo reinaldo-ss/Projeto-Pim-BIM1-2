@@ -34,11 +34,11 @@ O sistema é dividido em perfis de acesso, cada um com suas responsabilidades:
 - Tira-dúvidas de respostas rápidas (FAQ) para auxiliar professores e alunos.
 - Redirecionamento para e-mail ou telefone de suporte em casos de dúvidas complexas.
 
-## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** [Insira aqui: C / Python / C#]
 - **Interface:** CLI (Linha de Comando / Terminal)
 - **Banco de Dados:** Arquivos `.json` (Simulação de banco de dados relacional via arquivos locais).
 - **IDE/Ferramentas:** [VS Code / DevC++ / CodeBlocks]
+
+### 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
