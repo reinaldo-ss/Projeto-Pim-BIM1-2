@@ -2,6 +2,8 @@
 
 > Projeto Integrado Multidisciplinar (PIM) - 1º Semestre
 
+## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
+
 ## 📄 Sobre o Projeto
 
 O **Matriz Lab** é um sistema de gerenciamento escolar desenvolvido com o objetivo de otimizar as tarefas de professores e da secretaria, além de facilitar a interação com os alunos.
@@ -40,5 +42,3 @@ O sistema é dividido em perfis de acesso, cada um com suas responsabilidades:
 - **Interface:** CLI (Linha de Comando / Terminal)
 - **Banco de Dados:** Arquivos `.json` (Simulação de banco de dados relacional via arquivos locais).
 - **IDE/Ferramentas:** [VS Code / DevC++ / CodeBlocks]
-
-## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
