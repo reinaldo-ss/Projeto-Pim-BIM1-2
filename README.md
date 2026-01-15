@@ -41,4 +41,4 @@ O sistema é dividido em perfis de acesso, cada um com suas responsabilidades:
 - **Banco de Dados:** Arquivos `.json` (Simulação de banco de dados relacional via arquivos locais).
 - **IDE/Ferramentas:** [VS Code / DevC++ / CodeBlocks]
 
-### 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
+## 💻 Desenvolvido em parceria com: Natan Silva e Henrique Silva.
